@@ -120,7 +120,8 @@
 		<Copy SourceFiles="@(MainPackageFiles)" DestinationFiles="@(MainPackageFiles->'$(BuildNuGetFramework45Directory)\%(RecursiveDir)%(Filename)%(Extension)')" />
 
     	<!-- Create NuGet package -->
-    	<Exec Command='$(NuGetFolder)\nuget.exe pack "$(NuSpecFile)"' WorkingDirectory="$(BuildPackageDirectory)"/>
+		<!-- commenting this out so I can fix the version number without pushing packages to NuGet -->
+    	<!--Exec Command='$(NuGetFolder)\nuget.exe pack "$(NuSpecFile)"' WorkingDirectory="$(BuildPackageDirectory)"/-->
 
     	<Delete Files="$(NuSpecFile)" />
 
