@@ -14,7 +14,7 @@
       <dependency id="SimpleInjector" version="4.0.12" />
       <dependency id="SimpleInjector.Integration.Web" version="4.0.12" />
       <dependency id="SimpleInjector.Integration.Web.Mvc" version="4.0.12" />
-      <dependency id="DD4T.Core" version="2.2.10" />
+      <dependency id="DD4T.Core" version="2.5" />
     </dependencies>
   </metadata>
 </package>
