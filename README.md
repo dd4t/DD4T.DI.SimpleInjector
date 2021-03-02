@@ -1,3 +1,7 @@
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/dd4t/DD4T.DI.SimpleInjector?branch=master&svg=true&passingText=master)](https://ci.appveyor.com/project/DD4T/dd4t-di-simpleinjector)
+
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/dd4t/DD4T.DI.SimpleInjector?branch=develop&svg=true&passingText=develop)](https://ci.appveyor.com/project/DD4T/dd4t-di-simpleinjector)
+
 # DD4T.DI.SimpleInjector
 Dependency Injection for DD4T using SimpleInjector
 
