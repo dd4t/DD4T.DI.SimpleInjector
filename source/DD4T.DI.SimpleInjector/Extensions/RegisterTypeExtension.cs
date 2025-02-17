@@ -63,14 +63,14 @@ namespace DD4T.DI.SimpleInjector.Extensions
 	            }
 	            else if (!preserveExistingDefaults)
 	            {
-					builder.AppendToCollection(serviceType, implementationType);
+					builder.Collection.Append(serviceType, implementationType);
 				}
             }
             catch (InvalidOperationException)
             {
 				if (!preserveExistingDefaults)
 				{
-					builder.AppendToCollection(serviceType, implementationType);
+                    builder.Collection.Append(serviceType, implementationType);
 				}
 			}
             catch (ArgumentNullException)

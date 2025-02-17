@@ -1,6 +1,12 @@
 # DD4T.DI.SimpleInjector
 Dependency Injection for DD4T using SimpleInjector
 
+## Release 2.6
+
+- Bumped DD4T.Core and Model to 2.6.1 
+- Bumped Newtonsoft to 13.0.3
+- Bumped SimpleInjector to 5.5.0
+
 ## Release 2.5
 
 - Upgraded reference to DD4T.Core
